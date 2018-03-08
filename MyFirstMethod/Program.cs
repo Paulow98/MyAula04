@@ -10,7 +10,14 @@ namespace MyFirstMethod
     {
         static void CountTo10()
         {
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        static void CountToN(int n)
+        {
+            for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(i);
             }
