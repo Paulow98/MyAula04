@@ -37,7 +37,7 @@ namespace MyFirstMethod
         static void CountToN(int n1, int n2)
         {
 
-            for (int i = n1 - 1; i < n2 + 1; i++)
+            for (int i = n1; i < n2 + 1; i++)
             {
                 Console.WriteLine(i);
             }
@@ -72,15 +72,7 @@ namespace MyFirstMethod
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            int[] a = new int[4];
-            a.Initialize();
-            a[0] = 10;
-            a[1] = 2;
-            a[2] = 3;
-            a[3] = 4;
-            PrintNumbers(a);
-            Reverse(a);
-            PrintNumbers(a);
+            CountToN(2, 6);
 
 
         }
